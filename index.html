@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale = 1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Apple</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav">
+            <a href="#"><img src="logo.png" alt="apple" class="logo"></a>
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+
+            </ul>
+            <div class="Hamburger" id="Hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>iphone 13 pro max </h2>
+                <p>iPhone 13 Pro Max colors: Gold - Gorgeous - Green - Blue - Silver. Weight: 240 grams and
+                    dimensions: 160.8 for length - 78.1 for width - 7.7 for thickness (mm).</p>
+                <a href="#">All Products</a>
+            </div>
+            <div class="image">
+                <img class="img" src="0.png" alt="hdhdh">
+            </div>
+            <div class="icons">
+                <img onclick="phones(this.src); colors('#000')" src="0.png">
+                <img onclick="phones(this.src); colors('#247ec8')" src="1.png">
+                <img onclick="phones(this.src); colors('#1e1e1e')" src="2.png">
+                <img onclick="phones(this.src); colors('#c79b53')" src="3.png">
+                <img onclick="phones(this.src); colors('#c82525')" src="4.png">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
